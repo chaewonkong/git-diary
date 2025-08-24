@@ -5,7 +5,7 @@
 CONTENTS_DIR := "contents"
 
 
-# 기본 help
+# help
 default:
     @echo "Available Commands:"
     @echo "  just link <repo_url>   : remote repository add"

@@ -1,15 +1,19 @@
 # Git Diary
 
-Git으로 관리되는 Markdown 중심의 간단한 다이어리 작성 앱
+A simple markdown-based diary writing app managed with Git
 
-## 사용법
-just 명령어로 간단히 실행.
+🌐 Languages: [English](README.md) | [한국어](README.ko.md)
 
-### 설치
-1. git clone으로 repository 복사
-2. just 명령어 설치가 필요하다면 명령어 설치
+## Usage
 
-```bash
+Easily run with the `just` command.
+
+### Installation
+
+1.  Clone the repository with `git clone`
+2.  Install `just` if not already installed
+
+``` bash
 # macOS (Homebrew)
 brew install just
 
@@ -19,13 +23,16 @@ scoop install just
 choco install just
 ```
 
-
 ### Remote repository
-1. Github에서 일기를 관리할 repository를 private repository로 만들기
-2. `just link <repository_url>`로 private repository 연결
 
+1.  Create a private repository on GitHub to store your diary
+2.  Link the private repository using `just link <repository_url>`
 
-### 일기 쓰기
-1. `just new`로 일기 markdown 생성. yyyy-mm-dd.md 파일이 condtents 디렉토리에 생성됨
-2. 자신이 사용하는 코드 에디터로 contents/yyyy-mm-dd.md를 열어 작성
-3. `just publish`로 일기를 remote에 commit && push
+### Writing a diary
+
+1.  Run `just new` to create a new diary markdown file. A file named
+    `yyyy-mm-dd.md` will be generated in the `contents` directory.
+2.  Open `contents/yyyy-mm-dd.md` with your preferred code editor and
+    write your diary.
+3.  Run `just publish` to commit and push your diary to the remote
+    repository.
