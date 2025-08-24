@@ -7,6 +7,18 @@ just 명령어로 간단히 실행.
 
 ### 설치
 1. git clone으로 repository 복사
+2. just 명령어 설치가 필요하다면 명령어 설치
+
+```bash
+# macOS (Homebrew)
+brew install just
+
+# windows
+scoop install just
+# or
+choco install just
+```
+
 
 ### Remote repository
 1. Github에서 일기를 관리할 repository를 private repository로 만들기
