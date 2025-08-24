@@ -2,6 +2,8 @@
 
 Git으로 관리되는 Markdown 중심의 간단한 다이어리 작성 앱
 
+🌐 Languages: [English](README.md) | [한국어](README.ko.md)
+
 ## 사용법
 just 명령어로 간단히 실행.
 
