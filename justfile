@@ -31,10 +31,11 @@ new:
 		echo "already exist: {{CONTENTS_DIR}}/$(date +%F).md"; \
 	fi
 
-# commit + push
+# commit + pull + push
 publish:
     git add -A
     git commit -m "Diary: $(date +'%F %T')" || echo "No changes to commit"
+    git pull origin main --rebase
     git push origin main
 
 # Get latest from remote
